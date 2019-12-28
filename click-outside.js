@@ -10,8 +10,6 @@ function handleCardButtonClick(event) {
   const imgSrc = card.querySelector('img').src;
   const desc = card.dataset.description;
   const name = card.querySelector('h2').textContent;
-  console.log(button.closest('.card'));
-
 
   // populate the modal with the new info
   modalInner.innerHTML = `
